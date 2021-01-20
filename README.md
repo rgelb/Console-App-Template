@@ -7,3 +7,4 @@ Starting point for throwaway console apps
 * Settings wired in.
 * Command Line parameters plumbed.
 * Database access handled by Dapper.
+* My preferred VS coding style in editorconfig.

@@ -10,7 +10,7 @@ namespace ConsoleApp.Data {
     public class TrioAccess : Database
     {
         public TrioAccess() {
-            connectionString = App.ConnectionStrings.Trio;
+            connectionString = App.Config.ConnectionStrings.Trio;
         }
 
         /// <summary>

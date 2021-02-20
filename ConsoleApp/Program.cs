@@ -31,8 +31,7 @@ namespace ConsoleApp {
                 .AddEnvironmentVariables();
 
             var config = builder.Build();
-            App.AppSettings = config.Get<AppSettings>();
-            App.ConnectionStrings = config.Get<ConnectionStrings>();
+            App.Config = config.Get<AppConfig>();
         }
     }
 }
